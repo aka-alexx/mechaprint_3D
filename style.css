@@ -338,9 +338,17 @@ th, td {
 }
 
 @media (max-width:991px) {
+    .header-content {
+        padding: 80px 0;
+        flex-direction: column-reverse;
+    }
     .ofert {
         display: flex;
         flex-direction: column;
+    }
+    .ofert-img img {
+        width: 300px;
+        height: 200px;
     }
     .product-content {
         display: grid;
@@ -412,6 +420,10 @@ th, td {
     .ofert-1 {
         margin-bottom: 30px;
         flex-direction: column;
+    }
+    .ofert-img img {
+        width: 300px;
+        height: 200px;
     }
     .products {
         padding: 0 30px 30px 30px;
