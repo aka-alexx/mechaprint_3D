@@ -297,6 +297,8 @@ th, td {
 
 .blog-1 img {
     margin-bottom: 20px;
+    width: 400px;
+    height: 250px;
 }
 
 .blog-1 h3 {
@@ -304,12 +306,14 @@ th, td {
     color: #111111;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 15px;
 }
 
 .blog-1 p {
     font-size: 16px;
     color: #111111;
+    text-align: justify;
 }
 
 .footer {
