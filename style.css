@@ -153,7 +153,7 @@ th, td {
     border-radius: 5px;
 }
 
-carousel-item {
+.carousel-item {
     min-height: 400px;
 }
 
