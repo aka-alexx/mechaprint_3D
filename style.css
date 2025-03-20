@@ -418,11 +418,10 @@ th, td {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
-        
     }
 }
 
-@media (max-width:761px) {
+@media (max-width:767px) {
     .menu{
         padding: 20px;
     }
@@ -459,7 +458,7 @@ th, td {
         padding: 70px 0;
         flex-direction: column-reverse;
     }
-   /*.header-img {
+    /*.header-img {
         display: none;
     }*/
     .header-txt {
@@ -494,13 +493,6 @@ th, td {
     .product img {
         width: 200px;
         height: 280px;
-    }
-    .icons {
-        padding: 30px;
-        flex-direction: column;
-    }
-    .icon-1 {
-        margin-bottom: 30px;
     }
     .blog {
         padding: 0 30px 30px 30px;
