@@ -26,7 +26,7 @@ img {
 .header {
     display: flex;
     align-items: center;
-    min-height: 10vh;
+    min-height: 11vh;
     background-color: #F5F5F5;
     padding: 70px, 0;
 }
@@ -43,7 +43,7 @@ img {
 
 .logo img {
     width: 450px;
-    height: 90px;
+    height: 70px;
 }
 
 .menu .navbar ul li {
@@ -85,7 +85,7 @@ img {
 }
 
 .products {
-    padding: 50px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
@@ -94,7 +94,11 @@ img {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.aisle-products {
+    padding: 30px 0 0 0;
 }
 
 .product-content {
@@ -140,4 +144,37 @@ img {
 
 .product a {
     text-decoration: none;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #111111;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.link ul {
+    padding: 0;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
 }
